@@ -1,0 +1,157 @@
+/* Ajustes para telas menores que 1024px: menu compacto, conteúdo fluido e cards roláveis */
+@media (max-width: 1023px) {
+  .menu-link {
+    display: none;
+  }
+
+  .menu-icone {
+    display: block;
+  }
+
+  .card-especialidades {
+    overflow-x: auto;
+    gap: 1rem;
+    padding-bottom: 12px;
+  }
+
+  .card-especialidades figure img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .plano-fundo, .subtitulo, .Especialidades, .contato, .rodape {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .faq-item summary {
+    font-size: 0.95rem;
+  }
+
+  .faq-conteudo p {
+    font-size: 0.94rem;
+  }
+}
+
+/* Ajustes para celulares: rodapé em coluna e cards de especialidades mais estreitos */
+@media (max-width: 479px) {
+   h1{
+    font-size: 1.7rem;
+  }
+
+  .subtitulo p{
+    font-size: 1.7rem;
+  }
+
+  .sobre-texto-destaque p {
+    font-size: 1rem;
+    max-width:100%
+  }
+
+  .descricao ul {
+    grid-template-columns: 1fr;
+  }
+
+  .descricao ul li {
+    font-size: 0.98rem;
+  }
+
+  .container-subtitulo h3{
+    font-size: 1.3rem;
+  }
+
+  .container-subtitulo p{
+    font-size: 0.99rem;
+  }
+
+  .card-especialidades figure {
+    flex: 0 0 230px;
+    min-width: 230px;
+  }
+
+  .card-especialidades figure img {
+    height: 160px;
+  }
+  
+  .descricao-rodape {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .rodape-top {
+    align-items: center;
+    text-align: center;
+  }
+
+  .rodape-top h3, .rodape-top h4 {
+    text-align: center;
+  }
+}
+
+/* Ajustes para celulares maiores: largura intermediária nos cards de especialidades */
+@media (min-width: 480px) and (max-width: 767px) {
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  .subtitulo p {
+    font-size: 1.7rem;
+  }
+
+  .sobre-texto-destaque p {
+    font-size: 1rem;
+    max-width: 98%;
+  }
+
+  .descricao ul {
+    grid-template-columns: 1fr;
+  }
+
+  .descricao ul li {
+    font-size: 0.98rem;
+  }
+
+  .container-subtitulo h3 {
+    font-size: 1.3rem;
+  }
+
+  .container-subtitulo p {
+    font-size: 0.99rem;
+  }
+
+  .card-especialidades figure {
+    flex: 0 0 250px;
+    min-width: 250px;
+  }
+
+  .card-especialidades figure img {
+    height: 180px;
+  }
+
+  .descricao-rodape {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  } 
+
+
+  .rodape-top {
+    align-items: center;
+    text-align: center;
+  }
+
+  .rodape-top h3, .rodape-top h4 {
+    text-align: center;
+  }
+}
+
+/* Ajustes para tablets: cards de especialidades com maior largura */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .card-especialidades figure {
+    flex: 0 0 300px;
+    min-width: 300px;
+  }
+
+  .card-especialidades figure img {
+    height: 200px;
+  }
+}

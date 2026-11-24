@@ -1,0 +1,223 @@
+@media (max-width: 1023px) {
+
+  .logo-biolink img {
+    margin-top: 0;
+  }
+
+  .links-especialidades {
+    padding: 76px 0 0;
+  }
+
+  .links-especialidades h2 {
+    margin-top: 8px;
+  }
+
+  section[id] {
+    padding: 60px 16px;
+  }
+
+  .tabela-especialidade{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+ }
+
+  .descricao h2 {
+    font-size: 2rem;
+  }
+
+  .descricao p {
+    padding: 0 4px;
+    font-size: 1.05rem;
+  }
+
+  .historia-profissional {
+    padding: 20px;
+  }
+
+  .historia-profissional summary {
+    font-size: 1.25rem;
+  }
+
+  .rodape-top {
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 24px 20px;
+  }
+
+  .rodape-top > div,
+  .rodape-top address {
+    flex: 1 1 220px;
+  }
+
+  .whatsapp-flutuante {
+    right: 16px;
+    bottom: 16px;
+    padding: 11px 14px;
+  }
+}
+
+@media (max-width: 479px) {
+
+  .menu-icone {
+    display: block;
+  }
+
+  .menu-link {
+    display: none;
+  }
+
+   .links-especialidades h1 {
+    font-size: 1.8rem;
+  }
+
+  .links-especialidades h2 {
+    font-size: 1rem;
+  }
+ 
+  .img-especialidade img {
+    width: 180px;
+    height: 180px;
+  }
+
+  th,
+  td {
+    padding: 6px 3px;
+  }
+  .tabela-especialidade{
+    grid-template-columns: 1fr;
+  }
+
+  .descricao h2 {
+    font-size: 1.5rem;
+  }
+
+  .historia-profissional summary {
+    font-size: 1rem;
+  }
+
+  table tr{
+    font-size: 0.8rem;
+  }
+
+  .rodape-logo img {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+  .menu-icone {
+    display: block;
+  }
+
+  .menu-link {
+    display: none;
+  }
+
+  .links-especialidades h1 {
+    font-size: 1.8rem;
+  }
+
+  .links-especialidades h2 {
+    font-size: 1rem;
+  }
+  
+  .img-especialidade img {
+    width: 180px;
+    height: 180px;
+  }
+
+  section[id] {
+    padding: 48px 16px;
+  }
+
+  .tabela-especialidade{
+    grid-template-columns: 1fr;
+  }
+
+  .descricao h2 {
+    font-size: 1.7rem;
+  }
+
+  .descricao p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  .historia-profissional {
+    padding: 16px;
+    
+  }
+
+  .historia-profissional summary {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  table {
+    table-layout: fixed;
+    font-size: 0.9rem;
+  }
+
+  th,
+  td {
+    padding: 10px 8px;
+  }
+
+  .rodape-logo img {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .rodape-top > div, .rodape-top address {
+    flex: 1 1 352px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 1023px) {
+  .topo .container {
+    padding: 0 12px;
+  }
+
+  .links-especialidades {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  section[id] {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+
+  .historia-profissional p {
+    font-size: 0.95rem;
+    text-align: justify;
+  }
+
+  table {
+    font-size: 0.79rem;
+  }
+
+  th,
+  td {
+    padding: 8px 5px;
+  }
+
+  .rodape-bottom p {
+    font-size: 0.8rem;
+  }
+
+  .whatsapp-flutuante {
+    right: 24px;
+    bottom: 24px;
+    padding: 9px 12px;
+    font-size: 0.9rem;
+  }
+}
